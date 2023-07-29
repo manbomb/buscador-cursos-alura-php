@@ -1,0 +1,24 @@
+{
+    "name": "manbomb/buscador-cursos-alura",
+    "description": "Buscador de cursos para o site da alura",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Alura\\BuscadorDeCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sérgio Avilla",
+            "email": "sergiolucasavilladasilva@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.4",
+        "symfony/dom-crawler": "^4.2",
+        "symfony/css-selector": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    }
+}
